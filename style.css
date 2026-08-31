@@ -63,3 +63,14 @@ body{
     padding: 6px 8px;
     border-radius: 10px;
 }
+
+.descrisao h2,
+.contato h2{
+    font-size: clamp;
+    line-height: 1.2;
+    color: aliceblue;
+}
+
+.secao{
+    max-width: 120px;
+}
