@@ -11,41 +11,111 @@
 <body id="inicio">
     <header class="cabecalho">
         <div class="cabecalho-marca">
-            <img src="img/Fazenda.png" alt="Portal da fazenda" class="cabecalho-imagem">
+            <img src="img/fazenda.png" alt="O portal da fazenda dos catarina " class="cabecalho-imagem">
             <div>
-                <p class="cabecalho-subtitulo">Agro é pop</p>
-                <h1 class="cabecalho-titulo">Agro é tudo</h1>
+                <p class="cabecalho-subtitulo"> Agro é cuiudo </p>
+                <h1 class="cabecalho-titulo"> Agro é TUDO </h1>
             </div>
-
         </div>
         <nav>
             <ul class="cabecalho-lista">
-                <li class="cabecalho-lista-item"> <a href="#soja">Soja</a> </li>
-                <li class="cabecalho-lista-item"> <a href="#trigo">Trigo</a> </li>
-                <li class="cabecalho-lista-item"> <a href="#contato">Contato</a> </li>
-
+                <li class="cabecalho-lista-item"><a href="#soja"><strong>Soja</strong></a></li>
+                <li class="cabecalho-lista-item"><a href="#trigo"><strong>Trigo</strong></a></li>
+                <li class="cabecalho-lista-item"><a href="#contato"><strong>Contato</strong></a></li>
             </ul>
         </nav>
-        <button class="botao-tema" id="botao-tema" type="button">Tema🌙</button>
-
+        <button class="botao-tema" id="botao-tema" type="button"> 🌙 TEMA </button>
     </header>
     <main>
+        <section class="descricao" id="trigo">
+            <h2>Trigo</h2>
+        </section>
+
         <section class="secao">
             <div class="texto">
-                <p>O trigo (Triticum) é a segunda maior cultura de cereais do mundo, superado apenas pelo milho, 
-                    sendo a base alimentar essencial para a fabricação de farinhas, pães, massas e diversos produtos industriais.
-                    Originário do Crescente Fértil há mais de 10 mil anos.
-                    Ele desempenha um papel central na segurança alimentar global e na economia do agronegócio.
-                </p>
+                <p>O trigo é um dos cereais mais importantes do mundo, sendo cultivado em várias regiões devido à sua
+                    versatilidade e valor nutricional. É uma planta gramínea da espécie Triticum spp., da família
+                    Poaceae
+                    (ou Gramineae), amplamente utilizada na produção de farinha para diversos fins alimentares.</p>
+                <p>O trigo começou a ser cultivado e utilizado por povos antigos no período Neolítico, aproximadamente
+                    entre
+                    10.000 e 12.000 anos atrás. Esse período marca o início da agricultura, quando os seres humanos
+                    começaram a se estabelecer de forma mais sedentária e a cultivar plantas e criar animais.</p>
             </div>
 
-            <div>
-                <img src="" alt="">
-                <img src="" alt="">
+            <div class="imagem">
+                <img src="img/trigo2.jpg" alt="Espigas de trigo">
+                <img src="img/trigo1.jpg" alt="Plantação de trigo">
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section class="descricao" id="soja">
+            <h2>Soja</h2>
+        </section>
+
+        <section class="secao">
+
+            <div class="imagem">
+                <img src="img/soja2.jpg" alt="Soja plantada">
+                <img src="img/soja1.jpg" alt="Soja verde">
+            </div>
+
+            <div class="texto">
+                <p>A soja é o motor do agronegócio brasileiro,
+                    posicionando o país como o maior produtor e exportador mundial do grão.
+                    Cultivada em larga escala, ela move bilhões de dólares na economia nacional,
+                    gera milhões de empregos e atua como uma das principais fontes de divisas cambiais para a balança
+                    comercial do país.</p>
+
+                <p>Além do impacto financeiro, o grão destaca-se por sua versatilidade e alto valor nutricional, sendo
+                    essencial para a segurança alimentar global. Rico em proteínas, ele abastece a produção de
+                    biodiesel, óleo de cozinha e farelo para ração animal, desafiando o setor a crescer com tecnologia e
+                    sustentabilidade.</p>
             </div>
 
         </section>
     </main>
+
+    <section class="contato" id="contato">
+        <h2>Contato</h2>
+        <p>Preencha os campos abaixo para entrar em contato.</p>
+
+        <form id="formulario-contato" action="https://formsubmit.co/ajax/vladismara@gmail.com&quot; method=" post">
+
+            <input type="hidden" name="_subject" value="Nova mensagem do site Trigo e Soja">
+            <input type="hidden" name="_template" value="table">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="Nome" placeholder="Digite seu nome completo" required> <br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="Telefone" placeholder="(99) 9 9 999-9999" maxlength="16" required>
+            <br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="exemplo@email.com" required> <br>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="Mensagem" rows="6" placeholder="Escreva sua mensagem aqui!"
+                required></textarea> <br>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p id="resposta-formulario" class="aviso-formulario" aria-live="polite"></p>
+    </section>
+
+    <footer id="fim">
+        <div class="texto">
+            <p>
+                <strong> Desenvolvido por: </strong> <em> Julio Girardi </em> <br>
+                WhatsApp: (47) 9 9999-8888 | julio.girardi1@gmail.com
+            </p>
+        </div>
+
+    </footer>
 
 </body>
 
