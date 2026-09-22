@@ -170,12 +170,6 @@ body {
     font-weight: bold;
 }
 
-.contato input,
-.contato textarea{
-    padding: 10px;
-    border: 1px solid;
-}
-
 /* parte do contato */
 .contato {
     max-width: 600px;
@@ -184,24 +178,6 @@ body {
     background-color: #FFFEF9;
     border-radius: 5px;
     box-shadow: 8px 8px 18px #2E431C2E;
-}
-
-.contato h2,
-.contato > p {
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-.contato form {
-    display: flex;
-    flex-direction: column;
-}
-
-.contato label {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    color: #52702F;
-    font-weight: bold;
 }
 
 .contato input,
@@ -214,7 +190,7 @@ body {
 }
 
 .contato input::placeholder,
-.fale-conosco textarea::placeholder {
+.contato textarea::placeholder {
     color: #5C614C;
 }
 
