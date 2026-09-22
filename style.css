@@ -276,54 +276,54 @@ body.tema-escuro .cabecalho a:hover {
 }
 
 body.tema-escuro .botao-tema,
-body.tema-escuro .fale-conosco button,
+body.tema-escuro .contato button,
 body.tema-escuro .voltar {
     color: #FFFFFF;
     background-color: #AECC7E;
 }
 
 body.tema-escuro .botao-tema:hover,
-body.tema-escuro .fale-conosco button:hover,
+body.tema-escuro .contato button:hover,
 body.tema-escuro .voltar:hover {
     background-color: #E8EFDA;
     color: #1C2218;
 }
 
 body.tema-escuro .descricao h2,
-body.tema-escuro .fale-conosco h2,
+body.tema-escuro .contato h2,
 body.tema-escuro footer {
     color: #E8EFDA;
 }
 
 body.tema-escuro .secao,
-body.tema-escuro .fale-conosco {
+body.tema-escuro .contato {
     background-color: #262F22;
     box-shadow: 8px 8px 18px #00000059;
 }
 
-body.tema-escuro .fale-conosco input,
-body.tema-escuro .fale-conosco textarea {
+body.tema-escuro .contato input,
+body.tema-escuro .contato textarea {
     border: 1px solid #304127;
     background-color: #FFFFFF;
     color: #1C2218;
 }
 
-body.tema-escuro .fale-conosco input::placeholder,
-body.tema-escuro .fale-conosco textarea::placeholder,
-body.tema-escuro .fale-conosco .aviso-formulario {
+body.tema-escuro .contato input::placeholder,
+body.tema-escuro .contato textarea::placeholder,
+body.tema-escuro .contato .aviso-formulario {
     color: #CBD4BE;
 }
 
-body.tema-escuro .fale-conosco input:focus,
-body.tema-escuro .fale-conosco textarea:focus {
+body.tema-escuro .contato input:focus,
+body.tema-escuro .contato textarea:focus {
     outline: 2px solid #DEB25B;
 }
 
-body.tema-escuro .fale-conosco .sucesso {
+body.tema-escuro .contato .sucesso {
     color: #8FD397;
 }
 
-body.tema-escuro .fale-conosco .erro {
+body.tema-escuro .contato .erro {
     color: #E88474;
 }
 
