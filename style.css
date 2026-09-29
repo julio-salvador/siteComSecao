@@ -245,7 +245,7 @@ body {
 footer {
     min-height: 7em;
     color: var(--verde-profundo);
-    background-color: var(--verde-claro);
+    background-color: #b2d375;
     display: flex;
     justify-content: center;
     align-items: center;
