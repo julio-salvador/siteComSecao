@@ -356,7 +356,7 @@ body.tema-escuro .voltar {
     width: 44px;
     height: 44px;
     color: white;
-    background-color: green;
+    background-color: rgb(31, 252, 31);
     border-radius: 50%;
     text-decoration: none;
     font-weight: bold;
@@ -435,7 +435,7 @@ font-size: 17px;
 }
 
 footer .texto {
-max-width: 100%;
+max-width: 50%;
 text-align: center;
 }
 
